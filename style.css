@@ -1,0 +1,104 @@
+body{
+background-color: rgb(230,230,230);
+color:rgb(50,50,50);
+font-family: "Lora", serif;
+font-size:17px;
+font-weight: lighter;
+
+
+
+}
+
+h1,h2,h3{
+
+  font-family: "Roboto", sans-serif;
+  
+}
+
+h1{
+color:#575f7d;
+font-size:32px;
+font-weight: 900;
+}
+
+h2{
+color:#81ce90;	
+font-size:24px;
+font-weight: :lighter;
+font-weight: 500;
+}
+a{
+	text-decoration: none;
+	color:6B72E1;
+	  font-family: "Roboto", sans-serif;
+	  font-weight: bold;
+}
+
+a:hover{
+	color:black;
+}
+/*classes*/
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+.card-white{
+  background-color : white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px ;
+  margin: 20px 0px ;
+  text-align: center;
+}
+.img-circle{
+border-radius: 50%;
+}
+
+.btn-blue{
+background-color: #6B72E1;
+color: white;
+padding: 15px 20px;
+border-radius: 4px;
+}
+}
+.btn-blue:hover{
+background-color:black;
+color : white;
+}
+
+.list-inline {
+  list-style: none; /* Remove bullet points */
+  padding-left: 0px; /* Remove left padding */
+  margin: 0; /* Remove default margins */
+}
+
+.list-inline li {
+  display: inline-block; /* Display list items horizontally */
+  padding: 10px; /* Add padding between list items */
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(150, 150, 150); /* Set default icon color to grey */
+}
+
+.list-inline i:hover {
+  color: black; /* Change icon color to black on hover */
+}
+
+
+/*responsive*/
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+
